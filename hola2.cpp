@@ -5,7 +5,7 @@ using namespace std ;
 
 int main (){
 
-	cout <<" adios "<<endl;
+	cout <<" adios muy buenas "<<endl;
 	
 	return 0;
 
