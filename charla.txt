@@ -1,0 +1,81 @@
+git es un software
+una forja de software por ejemplo es una red social
+una forja es una web pública con el administrador de versiones integrado
+
+Crear reopsitorio: 
+	git init // crea el repositorio local
+	git remote add origin URL //añadir repositorio
+
+
+git status //como está el github, lo que hay y si hay que poner algo o añadir 
+algo además MUY IMPORTANTE
+
+SIEMPRE git add (subir cambios) y luego git commit (para confirmar los 
+cambios ) y push  lo que sea
+
+
+Con git log // todos los cambios q ha habido 
+
+git checkout [<commit>] FICHERO //deja el fichero como estaba
+
+git revert <commit> //Copia un commit
+ 
+ 
+git reset <commit> //PERDEMOS COMMITS 
+
+Con git push los sube al repositorio
+
+Para bajarse algo es:
+	git pull // por defecto
+	git pull origin main // origin es el server y main lo que nos bajamos
+	git pull main rama // lo mismo pero nos bajamos una rama 
+	
+En la carpeta del proyecto usar git clone y el HTTPS de un repositorio
+ya creado en github (Te crea una carpetita) =) o git clone con el ssh y asi no 
+tienes que crear token luego 
+
+ls -a para ver los ficheros ocultos 
+
+git commit -m "mensaje que quiera"
+
+git commit -a //se ahorra poner la marca para hacer el commit (mensaje en 
+verde) le pone la marca auto luego se le puede poner el -m (git commit -a -m 
+"mensaje")
+
+Hay que poner uan contraseña para cada repositorio de git jeje 
+contraseña (token) de este rep, no la pongo xd
+Marcar todas las opciones que vienen y
+para el tokken classic
+es un token en cuenta ajustes ien developer settings y por ahi estara tokens
+
+Se puede hacer sin contraseña con: 
+mediante claves privadas y publicas
+	ssh -keygen
+	//metes el nombre de fichero donde estara la clave publica
+	//se copia la clave publica que esta en el fichero que pone .pub
+	creo una nueva ssh key en github, en settings new sshkey
+	
+	en vez de bajarlo por HTTPS lo haces por SSH
+	y haces un clone
+	
+	
+
+con esto se pueden tener un proyecto desde un punto con dos versiones 
+crear una rama: 
+	git branch <nueva rama> // creo nueva rama
+	git checkout <nueva rama> // moverse a nueva rama
+	con git branch sin nombre es para ver la rama en la que estamos 
+			
+	
+Para fusionar las ramas es con merge
+	git merge <nueva rama> //desde la rama main, nueva rama es el nombre de 
+	la rama a fusionar
+
+Para obviar algunos elementos creando un  con gedit .gitignore y pones los 
+ficheros y te dejara hacer push este si tendras que subirlo
+
+Con el fork copia el proyecto en mi cuenta de la otra persona
+Y con el pullrequest puedes enviar cambios a otra persona jeje	
+
+	
+
